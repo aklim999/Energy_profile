@@ -1,0 +1,103 @@
+{
+  "main_year": 2008,
+  "year_quality": {
+    "2007": {
+      "rows": 525600,
+      "expected_minutes": 525600,
+      "absent_timestamps": 0,
+      "duplicate_timestamps": 0,
+      "missing_power": 3931,
+      "coverage_pct": 99.25209
+    },
+    "2008": {
+      "rows": 527040,
+      "expected_minutes": 527040,
+      "absent_timestamps": 0,
+      "duplicate_timestamps": 0,
+      "missing_power": 135,
+      "coverage_pct": 99.97439
+    },
+    "2009": {
+      "rows": 525600,
+      "expected_minutes": 525600,
+      "absent_timestamps": 0,
+      "duplicate_timestamps": 0,
+      "missing_power": 4280,
+      "coverage_pct": 99.18569
+    }
+  },
+  "cleaning": {
+    "rows_before": 527040,
+    "bad_timestamps": 0,
+    "duplicate_timestamps": 0,
+    "missing_power": 135,
+    "physically_invalid_power": 0,
+    "retained_rows": 526905,
+    "statistical_high_candidates_retained": 3726,
+    "threshold_3iqr_kw": 5.172
+  },
+  "complete_days": 351,
+  "days_in_year": 366,
+  "peak_hour": 20,
+  "min_hour": 4,
+  "peak_kw": 1.9163,
+  "minimum_kw": 0.4423,
+  "max_difference_complete_days_kw": 0.048019,
+  "average_difference_complete_days_kw": 0.015629,
+  "number_of_synthetic_values": 0,
+  "low_consumption": {
+    "daily_coverage_minimum_pct": 95,
+    "absolute_threshold_kw": 0.25,
+    "relative_threshold_ratio": 0.65,
+    "days_eligible": 366,
+    "days_below_absolute_threshold": 24,
+    "days_below_relative_threshold": 24,
+    "longest_low_period": {
+      "start": "2008-08-12",
+      "end": "2008-08-30",
+      "days": 19,
+      "mean_kw": 0.186112,
+      "minimum_coverage_pct": 100.0
+    },
+    "lowest_mean_day": "2008-08-25",
+    "lowest_mean_day_kw": 0.173818,
+    "example_calendar_dates": {
+      "2008-01-01": {
+        "mean_kw": 1.91648,
+        "ratio_to_reference": 1.0313
+      },
+      "2008-05-01": {
+        "mean_kw": 0.40001,
+        "ratio_to_reference": 0.5075
+      },
+      "2008-07-14": {
+        "mean_kw": 0.79023,
+        "ratio_to_reference": 1.0728
+      },
+      "2008-11-11": {
+        "mean_kw": 1.70552,
+        "ratio_to_reference": 1.1681
+      },
+      "2008-12-24": {
+        "mean_kw": 0.88169,
+        "ratio_to_reference": 0.6464
+      },
+      "2008-12-25": {
+        "mean_kw": 0.73689,
+        "ratio_to_reference": 0.6696
+      },
+      "2008-12-26": {
+        "mean_kw": 0.84981,
+        "ratio_to_reference": 0.6619
+      },
+      "2008-12-29": {
+        "mean_kw": 0.38561,
+        "ratio_to_reference": 0.3093
+      },
+      "2008-12-31": {
+        "mean_kw": 1.36402,
+        "ratio_to_reference": 1.0
+      }
+    }
+  }
+}

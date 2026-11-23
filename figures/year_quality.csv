@@ -1,0 +1,4 @@
+year,rows,expected_minutes,absent_timestamps,duplicate_timestamps,missing_power,coverage_pct
+2007,525600,525600,0,0,3931,99.25209
+2008,527040,527040,0,0,135,99.97439
+2009,525600,525600,0,0,4280,99.18569
